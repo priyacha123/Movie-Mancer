@@ -1,0 +1,21 @@
+.footer{
+    margin: 25px;
+    padding: 15px;
+}
+
+p{
+    padding: 15px 0;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+    padding: 5px;
+    margin: 15px;
+    text-decoration: underline;
+    color: rgb(224, 224, 224);
+}

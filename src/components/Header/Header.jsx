@@ -1,8 +1,14 @@
-import React from 'react'
+import './Header.css'
+import logo from '../../assets/logo.jpg'
+
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <>
+    <div className="navbar">
+       <img className='logo' src={logo} alt="NETFLIX" />
+       </div>
+    </>
   )
 }
 
